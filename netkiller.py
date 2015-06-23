@@ -10,6 +10,11 @@ def main():
     try:
         deviceList = listProcesses(getNetworkDevices())
         deviceList= trimList(args.devices,deviceList)
+        
+        if args.dash_nine and args.kill:
+            print "error, you can't kill something twice..."
+            exit(2)
+        
         if args.dash_nine:
             killdashnine(deviceList)
         elif args.kill:
