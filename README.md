@@ -12,7 +12,7 @@ netkiller.py -d=<devices> -k or -9
 if you specify '*' for -d, it will kill everything.
 usage: prog.py -d=<devices> -9/k/l
 
-optional arguments:
+arguments:
   -h, --help            show this help message and exit
   
   -d DEVICES, --devices DEVICES
