@@ -1,6 +1,3 @@
-__author__ = 'eatsa_pizza'
-
-
 def main():
 
     if not tryImports():
