@@ -14,7 +14,10 @@ usage: prog.py -d=<devices> -9/k/l
 
 optional arguments:
   -h, --help            show this help message and exit
+  
   -d DEVICES, --devices DEVICES
                         Device names to operate on
+  
   -k, --kill            Standard kill, equivalent to 'kill PID'
+  
   -9, --dash-nine       The equivalent of 'kill -9 PID'
